@@ -2,9 +2,7 @@ package tarang.springframework.dependencyinjection.controlllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import tarang.springframework.dependencyinjection.services.GreetingServiceImpl;
-
-import static org.junit.jupiter.api.Assertions.*;
+import tarang.springframework.dependencyinjection.services.ConstructorGreetingServiceImpl;
 
 class ConstructorInjectedControllerTest {
 
@@ -12,7 +10,7 @@ class ConstructorInjectedControllerTest {
 
     @BeforeEach
     void setUp() {
-        controller = new ConstructorInjectedController(new GreetingServiceImpl());
+        controller = new ConstructorInjectedController(new ConstructorGreetingServiceImpl());
     }
 
     @Test
