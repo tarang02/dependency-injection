@@ -87,3 +87,4 @@ hs_err_pid*
 /target/surefire-reports/tarang.springframework.dependencyinjection.DependencyInjectionApplicationTests.txt
 /target/surefire-reports/TEST-tarang.springframework.dependencyinjection.DependencyInjectionApplicationTests.xml
 /.idea/vcs.xml
+/.idea/uiDesigner.xml
