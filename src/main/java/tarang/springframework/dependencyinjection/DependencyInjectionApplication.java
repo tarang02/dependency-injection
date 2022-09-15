@@ -18,12 +18,11 @@ public class DependencyInjectionApplication {
 		System.out.println("--- The Best Pet is ---");
 		System.out.println(petController.whichPetIsTheBest());
 
-
 		System.out.println("----------18nController");
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.sayHello());
 
-
+		System.out.println("------------Primary");
 		MyController myController = (MyController) ctx.getBean("myController");
 		System.out.println(myController.getGreeting());
 
