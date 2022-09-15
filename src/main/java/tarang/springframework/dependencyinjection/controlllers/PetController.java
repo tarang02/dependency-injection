@@ -1,7 +1,7 @@
 package tarang.springframework.dependencyinjection.controlllers;
 
 import org.springframework.stereotype.Controller;
-import tarang.springframework.dependencyinjection.services.PetService;
+import com.springframework.pets.PetService;
 
 @Controller
 public class PetController {

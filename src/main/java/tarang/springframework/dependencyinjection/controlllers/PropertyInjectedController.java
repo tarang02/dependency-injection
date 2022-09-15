@@ -8,7 +8,7 @@ import tarang.springframework.dependencyinjection.services.GreetingService;
 @Controller
 public class PropertyInjectedController {
 
-    @Qualifier("propertyGreetingServiceImpl")
+    @Qualifier("propertyGreetingService")
     @Autowired
     public GreetingService greetingService;
 

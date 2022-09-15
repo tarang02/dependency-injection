@@ -3,9 +3,9 @@ package tarang.springframework.dependencyinjection.services;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ConstructorGreetingServiceImpl implements GreetingService {
+public class SetterGreetingService implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello World -- Constructor";
+        return "Hello World -- Setter";
     }
 }

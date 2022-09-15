@@ -2,7 +2,7 @@ package tarang.springframework.dependencyinjection.controlllers;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import tarang.springframework.dependencyinjection.services.ConstructorGreetingServiceImpl;
+import tarang.springframework.dependencyinjection.services.ConstructorGreetingService;
 
 class PropertyInjectedControllerTest {
 
@@ -11,7 +11,7 @@ class PropertyInjectedControllerTest {
     @BeforeEach
     void setUp() {
         controller = new PropertyInjectedController();
-        controller.greetingService = new ConstructorGreetingServiceImpl();
+        controller.greetingService = new ConstructorGreetingService();
     }
 
     @Test
